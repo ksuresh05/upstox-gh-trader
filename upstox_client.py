@@ -91,7 +91,11 @@ def get_all_orders():
 # ── GTT ─────────────────────────────────────────────────────────────────
 
 def place_gtt(instrument_token, exit_transaction_type, quantity, product, target_price, sl_price):
-    is_exit_sell = exit_transaction_type == "SELL"
+    """
+    Place a MULTIPLE GTT with target and stop-loss legs.
+    Per Upstox API: TARGET and STOPLOSS legs use trigger_type "IMMEDIATE"
+    (not ABOVE/BELOW -- that's only for the ENTRY leg).
+    """
     body = {
         "type": "MULTIPLE",
         "quantity": quantity,
@@ -99,8 +103,8 @@ def place_gtt(instrument_token, exit_transaction_type, quantity, product, target
         "instrument_token": instrument_token,
         "transaction_type": exit_transaction_type,
         "rules": [
-            {"strategy": "TARGET",   "trigger_type": "ABOVE" if is_exit_sell else "BELOW", "trigger_price": target_price},
-            {"strategy": "STOPLOSS", "trigger_type": "BELOW" if is_exit_sell else "ABOVE", "trigger_price": sl_price},
+            {"strategy": "TARGET",   "trigger_type": "IMMEDIATE", "trigger_price": target_price},
+            {"strategy": "STOPLOSS", "trigger_type": "IMMEDIATE", "trigger_price": sl_price},
         ],
     }
     res = _post("/v3/order/gtt/place", body, base=BASE_URL)
@@ -110,7 +114,7 @@ def place_gtt(instrument_token, exit_transaction_type, quantity, product, target
 
 
 def modify_gtt(gtt_order_id, instrument_token, exit_transaction_type, quantity, product, new_target, new_sl):
-    is_exit_sell = exit_transaction_type == "SELL"
+    """Modify GTT target/SL. Both legs use trigger_type 'IMMEDIATE' per Upstox API."""
     body = {
         "gtt_order_id": gtt_order_id,
         "quantity": quantity,
@@ -118,8 +122,8 @@ def modify_gtt(gtt_order_id, instrument_token, exit_transaction_type, quantity, 
         "instrument_token": instrument_token,
         "transaction_type": exit_transaction_type,
         "rules": [
-            {"strategy": "TARGET",   "trigger_type": "ABOVE" if is_exit_sell else "BELOW", "trigger_price": new_target},
-            {"strategy": "STOPLOSS", "trigger_type": "BELOW" if is_exit_sell else "ABOVE", "trigger_price": new_sl},
+            {"strategy": "TARGET",   "trigger_type": "IMMEDIATE", "trigger_price": new_target},
+            {"strategy": "STOPLOSS", "trigger_type": "IMMEDIATE", "trigger_price": new_sl},
         ],
     }
     _put("/v3/order/gtt/modify", body)
@@ -132,12 +136,30 @@ def cancel_gtt(gtt_order_id):
 
 
 def get_gtt_status(gtt_order_id):
-    """Check if a GTT has fired (status changes when target/SL triggers)."""
+    """Returns the full GTT order object, including per-leg (rule) status."""
     res = _get("/v3/order/gtt/list")
     for gtt in res.get("data", []):
         if gtt.get("gtt_order_id") == gtt_order_id or gtt.get("id") == gtt_order_id:
             return gtt
     return None
+
+
+def get_triggered_leg(gtt_order_id):
+    """
+    Inspects a GTT's rules to determine which leg actually fired.
+    Returns ('TARGET', trigger_price) or ('STOPLOSS', trigger_price) or (None, None)
+    if neither has triggered yet.
+
+    Per Upstox: a leg with status TRIGGERED/COMPLETE has actually fired;
+    the other leg auto-cancels (status CANCELLED) when its sibling fires.
+    """
+    gtt = get_gtt_status(gtt_order_id)
+    if not gtt:
+        return None, None
+    for rule in gtt.get("rules", []):
+        if rule.get("status") in ("TRIGGERED", "COMPLETE"):
+            return rule.get("strategy"), rule.get("trigger_price")
+    return None, None
 
 
 # ── Portfolio ──────────────────────────────────────────────────────────
