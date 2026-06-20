@@ -58,8 +58,9 @@ def hard_stop_time():
 def evaluate_watchlist_entries(instructions):
     """
     Check each watchlist item's entry condition against current price.
-    This is intentionally simple (price-trigger based) — your specific
-    rules/logic get added here once you share them.
+    Each item must specify: symbol, side, qty, entry_price (trigger), first_target_price.
+    No SL is set at entry by design -- see trade_engine.enter_trade for the
+    ratcheting strategy (real SL only appears after the first target hit).
     """
     events = []
     watchlist = instructions.get("watchlist", [])
@@ -69,21 +70,21 @@ def evaluate_watchlist_entries(instructions):
         if not symbol:
             continue
 
-        # Skip if already have an active trade on this symbol
         if store.get_trade_by_symbol(symbol):
-            continue
+            continue  # already have an active trade on this symbol
 
-        # Skip if already attempted today (avoid re-entry loops)
         if item.get("entered_today"):
-            continue
+            continue  # avoid re-entry loops within the same day
 
         entry_trigger = item.get("entry_price")
         side = item.get("side", "BUY")
         qty = item.get("qty", 1)
         product = item.get("product", "D")
+        first_target = item.get("first_target_price")
 
-        if entry_trigger is None:
-            continue  # no auto-entry condition, manual only
+        if entry_trigger is None or first_target is None:
+            events.append(f"⚠️ {symbol}: missing entry_price or first_target_price, skipping")
+            continue
 
         try:
             from instruments import lookup_token
@@ -101,9 +102,7 @@ def evaluate_watchlist_entries(instructions):
         if triggered:
             result = trade_engine.enter_trade(
                 symbol=symbol, side=side, qty=qty, product=product,
-                entry_price=ltp,
-                sl_pct=item.get("sl_pct"), tgt_pct=item.get("tgt_pct"),
-                sl_price=item.get("sl_price"), target_price=item.get("target_price"),
+                entry_price=ltp, first_target_price=first_target,
             )
             events.append(result["message"])
             item["entered_today"] = True
@@ -141,12 +140,8 @@ def run():
             for e in entry_events:
                 logger.info(e)
 
-            trail_events = trade_engine.check_and_trail_all()
-            for e in trail_events:
-                logger.info(e)
-
-            closed_events = trade_engine.check_gtt_fired()
-            for e in closed_events:
+            outcome_events = trade_engine.check_gtt_outcomes()
+            for e in outcome_events:
                 logger.info(e)
 
         except Exception as e:
@@ -169,7 +164,8 @@ def run():
     logger.info(f"Trades opened today: {len(today_trades)}")
     logger.info(f"Still active (multi-day): {len(active)}")
     for t in active:
-        logger.info(f"  -> {t['symbol']}: {t['side']} {t['qty']} @ ₹{t['entry']} | SL ₹{t['sl']} | Target ₹{t['target']}")
+        sl_status = f"SL ₹{t['sl']}" if t.get('has_real_sl') else f"SL: none yet (placeholder ₹{t['sl']})"
+        logger.info(f"  -> {t['symbol']}: {t['side']} {t['qty']} @ ₹{t['entry']} | {sl_status} | Target ₹{t['target']} | Ratchets: {t.get('ratchet_count', 0)}")
     logger.info("=" * 60)
 
 
