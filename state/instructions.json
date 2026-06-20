@@ -1,0 +1,17 @@
+{
+  "date": "2026-06-22",
+  "watchlist": [
+    {
+      "symbol": "SBIN",
+      "side": "BUY",
+      "qty": 1,
+      "product": "I",
+      "entry_price": 1,
+      "sl_pct": 0.01,
+      "tgt_pct": 0.02,
+      "entered_today": false,
+      "note": "TEST ONLY - entry price set to 1 deliberately so it never triggers. This just verifies the pipeline runs and logs correctly."
+    }
+  ],
+  "rules": "Test run - verifying pipeline only, no real entries expected."
+}
