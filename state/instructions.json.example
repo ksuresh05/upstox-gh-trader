@@ -7,10 +7,9 @@
       "qty": 10,
       "product": "I",
       "entry_price": 820,
-      "sl_pct": 0.01,
-      "tgt_pct": 0.02,
+      "first_target_price": 836,
       "entered_today": false,
-      "note": "Enter if price drops to or below 820 (BUY trigger). SL 1%, Target 2%."
+      "note": "Enter if price drops to or below 820. No SL placed initially. First target 836 -- once hit, SL ratchets to 1% below hit price, target extends to 5% above hit price. Repeats on every subsequent target hit."
     },
     {
       "symbol": "RELIANCE",
@@ -18,11 +17,9 @@
       "qty": 5,
       "product": "D",
       "entry_price": 1450,
-      "sl_price": 1435,
-      "target_price": 1490,
+      "first_target_price": 1480,
       "entered_today": false,
-      "note": "Custom SL/target instead of percentage-based."
+      "note": "Same ratchet strategy, different stock/quantity/levels."
     }
-  ],
-  "rules": "Default: 1% SL, 2% target, trail to breakeven at 50% of target. Override per-symbol above."
+  ]
 }
