@@ -1,0 +1,44 @@
+name: Daily Trading Session
+
+on:
+  schedule:
+    # 9:10 AM IST = 3:40 AM UTC (IST is UTC+5:30). A few min before
+    # market open to load instructions and be ready right at 9:15.
+    - cron: '40 3 * * 1-5'   # Mon-Fri only
+  workflow_dispatch:          # allows manual trigger from GitHub UI for testing
+
+permissions:
+  contents: write   # needed so the workflow can commit state back to the repo
+
+jobs:
+  trading-session:
+    runs-on: ubuntu-latest
+    timeout-minutes: 370   # ~6h10m safety margin (market is 6h15m, 9:15-3:30 IST)
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run trading day
+        env:
+          UPSTOX_ACCESS_TOKEN: ${{ secrets.UPSTOX_ACCESS_TOKEN }}
+        run: python3 run_trading_day.py
+
+      - name: Commit updated state and logs back to repo
+        if: always()   # run this even if the trading script errors out, so we don't lose logs/state
+        run: |
+          git config --local user.email "trading-bot@github-actions"
+          git config --local user.name "Trading Bot"
+          git add state/ logs/
+          git diff --staged --quiet || git commit -m "Update state and logs - $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git push
