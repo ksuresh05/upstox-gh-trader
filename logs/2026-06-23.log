@@ -869,3 +869,13 @@
 2026-06-23 00:37:14,514 [INFO] --- Loop 289 @ 06:07:14 IST ---
 2026-06-23 00:37:14,515 [INFO] ⚠️ SBIN: missing entry_price or first_target_price, skipping
 2026-06-23 00:37:14,515 [INFO] Instructions saved
+2026-06-23 13:46:15,890 [INFO] ============================================================
+2026-06-23 13:46:15,890 [INFO] Trading day started — 2026-06-23
+2026-06-23 13:46:15,890 [INFO] ============================================================
+2026-06-23 13:46:15,890 [WARNING] Instructions are from 2026-06-22, not today (2026-06-23). Proceeding with existing watchlist anyway — update state/instructions.json for fresh rules.
+2026-06-23 13:46:15,890 [INFO] Reached hard stop time. Ending trading day loop.
+2026-06-23 13:46:15,890 [INFO] ============================================================
+2026-06-23 13:46:15,890 [INFO] Trading day summary
+2026-06-23 13:46:15,890 [INFO] Trades opened today: 0
+2026-06-23 13:46:15,890 [INFO] Still active (multi-day): 0
+2026-06-23 13:46:15,890 [INFO] ============================================================
