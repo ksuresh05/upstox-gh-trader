@@ -1,0 +1,10 @@
+2026-07-17 10:22:58,255 [INFO] ============================================================
+2026-07-17 10:22:58,255 [INFO] Trading day started — 2026-07-17
+2026-07-17 10:22:58,255 [INFO] ============================================================
+2026-07-17 10:22:58,255 [WARNING] Instructions are from 2026-06-22, not today (2026-07-17). Proceeding with existing watchlist anyway — update state/instructions.json for fresh rules.
+2026-07-17 10:22:58,255 [INFO] Reached hard stop time. Ending trading day loop.
+2026-07-17 10:22:58,255 [INFO] ============================================================
+2026-07-17 10:22:58,256 [INFO] Trading day summary
+2026-07-17 10:22:58,256 [INFO] Trades opened today: 0
+2026-07-17 10:22:58,256 [INFO] Still active (multi-day): 0
+2026-07-17 10:22:58,256 [INFO] ============================================================
