@@ -1,0 +1,14 @@
+2026-08-31 10:04:19,150 [INFO] ============================================================
+2026-08-31 10:04:19,150 [INFO] Trading day started — 2026-08-31
+2026-08-31 10:04:19,150 [INFO] ============================================================
+2026-08-31 10:04:19,151 [WARNING] Instructions are from 2026-06-22, not today (2026-08-31). Proceeding with existing watchlist anyway — update state/instructions.json for fresh rules.
+2026-08-31 10:04:19,151 [INFO] --- Loop 1 @ 15:34:19 IST ---
+2026-08-31 10:04:19,151 [INFO] ⚠️ SBIN: missing entry_price or first_target_price, skipping
+2026-08-31 10:04:19,151 [INFO] Instructions saved
+2026-08-31 10:04:19,151 [INFO] Market closed. Continuing brief monitoring until hard stop for final GTT status...
+2026-08-31 10:05:34,151 [INFO] Reached hard stop time. Ending trading day loop.
+2026-08-31 10:05:34,152 [INFO] ============================================================
+2026-08-31 10:05:34,152 [INFO] Trading day summary
+2026-08-31 10:05:34,152 [INFO] Trades opened today: 0
+2026-08-31 10:05:34,152 [INFO] Still active (multi-day): 0
+2026-08-31 10:05:34,152 [INFO] ============================================================
