@@ -1,0 +1,275 @@
+2026-09-03 08:16:48,338 [INFO] ============================================================
+2026-09-03 08:16:48,338 [INFO] Trading day started — 2026-09-03
+2026-09-03 08:16:48,338 [INFO] ============================================================
+2026-09-03 08:16:48,338 [WARNING] Instructions are from 2026-06-22, not today (2026-09-03). Proceeding with existing watchlist anyway — update state/instructions.json for fresh rules.
+2026-09-03 08:16:48,338 [INFO] --- Loop 1 @ 13:46:48 IST ---
+2026-09-03 08:16:48,338 [INFO] ⚠️ SBIN: missing entry_price or first_target_price, skipping
+2026-09-03 08:16:48,339 [INFO] Instructions saved
+2026-09-03 08:18:03,339 [INFO] --- Loop 2 @ 13:48:03 IST ---
+2026-09-03 08:18:03,339 [INFO] ⚠️ SBIN: missing entry_price or first_target_price, skipping
+2026-09-03 08:18:03,339 [INFO] Instructions saved
+2026-09-03 08:19:18,340 [INFO] --- Loop 3 @ 13:49:18 IST ---
+2026-09-03 08:19:18,340 [INFO] ⚠️ SBIN: missing entry_price or first_target_price, skipping
+2026-09-03 08:19:18,340 [INFO] Instructions saved
+2026-09-03 08:20:33,341 [INFO] --- Loop 4 @ 13:50:33 IST ---
+2026-09-03 08:20:33,341 [INFO] ⚠️ SBIN: missing entry_price or first_target_price, skipping
+2026-09-03 08:20:33,341 [INFO] Instructions saved
+2026-09-03 08:21:48,341 [INFO] --- Loop 5 @ 13:51:48 IST ---
+2026-09-03 08:21:48,342 [INFO] ⚠️ SBIN: missing entry_price or first_target_price, skipping
+2026-09-03 08:21:48,342 [INFO] Instructions saved
+2026-09-03 08:23:03,342 [INFO] --- Loop 6 @ 13:53:03 IST ---
+2026-09-03 08:23:03,343 [INFO] ⚠️ SBIN: missing entry_price or first_target_price, skipping
+2026-09-03 08:23:03,343 [INFO] Instructions saved
+2026-09-03 08:24:18,343 [INFO] --- Loop 7 @ 13:54:18 IST ---
+2026-09-03 08:24:18,343 [INFO] ⚠️ SBIN: missing entry_price or first_target_price, skipping
+2026-09-03 08:24:18,344 [INFO] Instructions saved
+2026-09-03 08:25:33,344 [INFO] --- Loop 8 @ 13:55:33 IST ---
+2026-09-03 08:25:33,344 [INFO] ⚠️ SBIN: missing entry_price or first_target_price, skipping
+2026-09-03 08:25:33,345 [INFO] Instructions saved
+2026-09-03 08:26:48,345 [INFO] --- Loop 9 @ 13:56:48 IST ---
+2026-09-03 08:26:48,345 [INFO] ⚠️ SBIN: missing entry_price or first_target_price, skipping
+2026-09-03 08:26:48,346 [INFO] Instructions saved
+2026-09-03 08:28:03,346 [INFO] --- Loop 10 @ 13:58:03 IST ---
+2026-09-03 08:28:03,346 [INFO] ⚠️ SBIN: missing entry_price or first_target_price, skipping
+2026-09-03 08:28:03,347 [INFO] Instructions saved
+2026-09-03 08:29:18,347 [INFO] --- Loop 11 @ 13:59:18 IST ---
+2026-09-03 08:29:18,347 [INFO] ⚠️ SBIN: missing entry_price or first_target_price, skipping
+2026-09-03 08:29:18,347 [INFO] Instructions saved
+2026-09-03 08:30:33,348 [INFO] --- Loop 12 @ 14:00:33 IST ---
+2026-09-03 08:30:33,348 [INFO] ⚠️ SBIN: missing entry_price or first_target_price, skipping
+2026-09-03 08:30:33,348 [INFO] Instructions saved
+2026-09-03 08:31:48,349 [INFO] --- Loop 13 @ 14:01:48 IST ---
+2026-09-03 08:31:48,349 [INFO] ⚠️ SBIN: missing entry_price or first_target_price, skipping
+2026-09-03 08:31:48,349 [INFO] Instructions saved
+2026-09-03 08:33:03,350 [INFO] --- Loop 14 @ 14:03:03 IST ---
+2026-09-03 08:33:03,350 [INFO] ⚠️ SBIN: missing entry_price or first_target_price, skipping
+2026-09-03 08:33:03,350 [INFO] Instructions saved
+2026-09-03 08:34:18,351 [INFO] --- Loop 15 @ 14:04:18 IST ---
+2026-09-03 08:34:18,351 [INFO] ⚠️ SBIN: missing entry_price or first_target_price, skipping
+2026-09-03 08:34:18,351 [INFO] Instructions saved
+2026-09-03 08:35:33,351 [INFO] --- Loop 16 @ 14:05:33 IST ---
+2026-09-03 08:35:33,352 [INFO] ⚠️ SBIN: missing entry_price or first_target_price, skipping
+2026-09-03 08:35:33,352 [INFO] Instructions saved
+2026-09-03 08:36:48,352 [INFO] --- Loop 17 @ 14:06:48 IST ---
+2026-09-03 08:36:48,353 [INFO] ⚠️ SBIN: missing entry_price or first_target_price, skipping
+2026-09-03 08:36:48,353 [INFO] Instructions saved
+2026-09-03 08:38:03,353 [INFO] --- Loop 18 @ 14:08:03 IST ---
+2026-09-03 08:38:03,353 [INFO] ⚠️ SBIN: missing entry_price or first_target_price, skipping
+2026-09-03 08:38:03,354 [INFO] Instructions saved
+2026-09-03 08:39:18,354 [INFO] --- Loop 19 @ 14:09:18 IST ---
+2026-09-03 08:39:18,354 [INFO] ⚠️ SBIN: missing entry_price or first_target_price, skipping
+2026-09-03 08:39:18,355 [INFO] Instructions saved
+2026-09-03 08:40:33,355 [INFO] --- Loop 20 @ 14:10:33 IST ---
+2026-09-03 08:40:33,355 [INFO] ⚠️ SBIN: missing entry_price or first_target_price, skipping
+2026-09-03 08:40:33,356 [INFO] Instructions saved
+2026-09-03 08:41:48,356 [INFO] --- Loop 21 @ 14:11:48 IST ---
+2026-09-03 08:41:48,356 [INFO] ⚠️ SBIN: missing entry_price or first_target_price, skipping
+2026-09-03 08:41:48,357 [INFO] Instructions saved
+2026-09-03 08:43:03,357 [INFO] --- Loop 22 @ 14:13:03 IST ---
+2026-09-03 08:43:03,357 [INFO] ⚠️ SBIN: missing entry_price or first_target_price, skipping
+2026-09-03 08:43:03,357 [INFO] Instructions saved
+2026-09-03 08:44:18,358 [INFO] --- Loop 23 @ 14:14:18 IST ---
+2026-09-03 08:44:18,358 [INFO] ⚠️ SBIN: missing entry_price or first_target_price, skipping
+2026-09-03 08:44:18,358 [INFO] Instructions saved
+2026-09-03 08:45:33,359 [INFO] --- Loop 24 @ 14:15:33 IST ---
+2026-09-03 08:45:33,359 [INFO] ⚠️ SBIN: missing entry_price or first_target_price, skipping
+2026-09-03 08:45:33,359 [INFO] Instructions saved
+2026-09-03 08:46:48,359 [INFO] --- Loop 25 @ 14:16:48 IST ---
+2026-09-03 08:46:48,360 [INFO] ⚠️ SBIN: missing entry_price or first_target_price, skipping
+2026-09-03 08:46:48,360 [INFO] Instructions saved
+2026-09-03 08:48:03,360 [INFO] --- Loop 26 @ 14:18:03 IST ---
+2026-09-03 08:48:03,361 [INFO] ⚠️ SBIN: missing entry_price or first_target_price, skipping
+2026-09-03 08:48:03,361 [INFO] Instructions saved
+2026-09-03 08:49:18,361 [INFO] --- Loop 27 @ 14:19:18 IST ---
+2026-09-03 08:49:18,361 [INFO] ⚠️ SBIN: missing entry_price or first_target_price, skipping
+2026-09-03 08:49:18,362 [INFO] Instructions saved
+2026-09-03 08:50:33,362 [INFO] --- Loop 28 @ 14:20:33 IST ---
+2026-09-03 08:50:33,362 [INFO] ⚠️ SBIN: missing entry_price or first_target_price, skipping
+2026-09-03 08:50:33,363 [INFO] Instructions saved
+2026-09-03 08:51:48,363 [INFO] --- Loop 29 @ 14:21:48 IST ---
+2026-09-03 08:51:48,363 [INFO] ⚠️ SBIN: missing entry_price or first_target_price, skipping
+2026-09-03 08:51:48,364 [INFO] Instructions saved
+2026-09-03 08:53:03,364 [INFO] --- Loop 30 @ 14:23:03 IST ---
+2026-09-03 08:53:03,364 [INFO] ⚠️ SBIN: missing entry_price or first_target_price, skipping
+2026-09-03 08:53:03,364 [INFO] Instructions saved
+2026-09-03 08:54:18,365 [INFO] --- Loop 31 @ 14:24:18 IST ---
+2026-09-03 08:54:18,365 [INFO] ⚠️ SBIN: missing entry_price or first_target_price, skipping
+2026-09-03 08:54:18,365 [INFO] Instructions saved
+2026-09-03 08:55:33,366 [INFO] --- Loop 32 @ 14:25:33 IST ---
+2026-09-03 08:55:33,366 [INFO] ⚠️ SBIN: missing entry_price or first_target_price, skipping
+2026-09-03 08:55:33,366 [INFO] Instructions saved
+2026-09-03 08:56:48,366 [INFO] --- Loop 33 @ 14:26:48 IST ---
+2026-09-03 08:56:48,367 [INFO] ⚠️ SBIN: missing entry_price or first_target_price, skipping
+2026-09-03 08:56:48,367 [INFO] Instructions saved
+2026-09-03 08:58:03,367 [INFO] --- Loop 34 @ 14:28:03 IST ---
+2026-09-03 08:58:03,368 [INFO] ⚠️ SBIN: missing entry_price or first_target_price, skipping
+2026-09-03 08:58:03,368 [INFO] Instructions saved
+2026-09-03 08:59:18,368 [INFO] --- Loop 35 @ 14:29:18 IST ---
+2026-09-03 08:59:18,368 [INFO] ⚠️ SBIN: missing entry_price or first_target_price, skipping
+2026-09-03 08:59:18,369 [INFO] Instructions saved
+2026-09-03 09:00:33,369 [INFO] --- Loop 36 @ 14:30:33 IST ---
+2026-09-03 09:00:33,369 [INFO] ⚠️ SBIN: missing entry_price or first_target_price, skipping
+2026-09-03 09:00:33,370 [INFO] Instructions saved
+2026-09-03 09:01:48,370 [INFO] --- Loop 37 @ 14:31:48 IST ---
+2026-09-03 09:01:48,370 [INFO] ⚠️ SBIN: missing entry_price or first_target_price, skipping
+2026-09-03 09:01:48,371 [INFO] Instructions saved
+2026-09-03 09:03:03,371 [INFO] --- Loop 38 @ 14:33:03 IST ---
+2026-09-03 09:03:03,371 [INFO] ⚠️ SBIN: missing entry_price or first_target_price, skipping
+2026-09-03 09:03:03,372 [INFO] Instructions saved
+2026-09-03 09:04:18,372 [INFO] --- Loop 39 @ 14:34:18 IST ---
+2026-09-03 09:04:18,372 [INFO] ⚠️ SBIN: missing entry_price or first_target_price, skipping
+2026-09-03 09:04:18,373 [INFO] Instructions saved
+2026-09-03 09:05:33,373 [INFO] --- Loop 40 @ 14:35:33 IST ---
+2026-09-03 09:05:33,373 [INFO] ⚠️ SBIN: missing entry_price or first_target_price, skipping
+2026-09-03 09:05:33,373 [INFO] Instructions saved
+2026-09-03 09:06:48,374 [INFO] --- Loop 41 @ 14:36:48 IST ---
+2026-09-03 09:06:48,374 [INFO] ⚠️ SBIN: missing entry_price or first_target_price, skipping
+2026-09-03 09:06:48,374 [INFO] Instructions saved
+2026-09-03 09:08:03,375 [INFO] --- Loop 42 @ 14:38:03 IST ---
+2026-09-03 09:08:03,375 [INFO] ⚠️ SBIN: missing entry_price or first_target_price, skipping
+2026-09-03 09:08:03,375 [INFO] Instructions saved
+2026-09-03 09:09:18,375 [INFO] --- Loop 43 @ 14:39:18 IST ---
+2026-09-03 09:09:18,376 [INFO] ⚠️ SBIN: missing entry_price or first_target_price, skipping
+2026-09-03 09:09:18,376 [INFO] Instructions saved
+2026-09-03 09:10:33,376 [INFO] --- Loop 44 @ 14:40:33 IST ---
+2026-09-03 09:10:33,376 [INFO] ⚠️ SBIN: missing entry_price or first_target_price, skipping
+2026-09-03 09:10:33,377 [INFO] Instructions saved
+2026-09-03 09:11:48,377 [INFO] --- Loop 45 @ 14:41:48 IST ---
+2026-09-03 09:11:48,377 [INFO] ⚠️ SBIN: missing entry_price or first_target_price, skipping
+2026-09-03 09:11:48,378 [INFO] Instructions saved
+2026-09-03 09:13:03,378 [INFO] --- Loop 46 @ 14:43:03 IST ---
+2026-09-03 09:13:03,378 [INFO] ⚠️ SBIN: missing entry_price or first_target_price, skipping
+2026-09-03 09:13:03,378 [INFO] Instructions saved
+2026-09-03 09:14:18,379 [INFO] --- Loop 47 @ 14:44:18 IST ---
+2026-09-03 09:14:18,379 [INFO] ⚠️ SBIN: missing entry_price or first_target_price, skipping
+2026-09-03 09:14:18,379 [INFO] Instructions saved
+2026-09-03 09:15:33,380 [INFO] --- Loop 48 @ 14:45:33 IST ---
+2026-09-03 09:15:33,380 [INFO] ⚠️ SBIN: missing entry_price or first_target_price, skipping
+2026-09-03 09:15:33,380 [INFO] Instructions saved
+2026-09-03 09:16:48,380 [INFO] --- Loop 49 @ 14:46:48 IST ---
+2026-09-03 09:16:48,381 [INFO] ⚠️ SBIN: missing entry_price or first_target_price, skipping
+2026-09-03 09:16:48,381 [INFO] Instructions saved
+2026-09-03 09:18:03,381 [INFO] --- Loop 50 @ 14:48:03 IST ---
+2026-09-03 09:18:03,382 [INFO] ⚠️ SBIN: missing entry_price or first_target_price, skipping
+2026-09-03 09:18:03,382 [INFO] Instructions saved
+2026-09-03 09:19:18,382 [INFO] --- Loop 51 @ 14:49:18 IST ---
+2026-09-03 09:19:18,382 [INFO] ⚠️ SBIN: missing entry_price or first_target_price, skipping
+2026-09-03 09:19:18,383 [INFO] Instructions saved
+2026-09-03 09:20:33,383 [INFO] --- Loop 52 @ 14:50:33 IST ---
+2026-09-03 09:20:33,383 [INFO] ⚠️ SBIN: missing entry_price or first_target_price, skipping
+2026-09-03 09:20:33,384 [INFO] Instructions saved
+2026-09-03 09:21:48,384 [INFO] --- Loop 53 @ 14:51:48 IST ---
+2026-09-03 09:21:48,384 [INFO] ⚠️ SBIN: missing entry_price or first_target_price, skipping
+2026-09-03 09:21:48,384 [INFO] Instructions saved
+2026-09-03 09:23:03,385 [INFO] --- Loop 54 @ 14:53:03 IST ---
+2026-09-03 09:23:03,385 [INFO] ⚠️ SBIN: missing entry_price or first_target_price, skipping
+2026-09-03 09:23:03,385 [INFO] Instructions saved
+2026-09-03 09:24:18,386 [INFO] --- Loop 55 @ 14:54:18 IST ---
+2026-09-03 09:24:18,386 [INFO] ⚠️ SBIN: missing entry_price or first_target_price, skipping
+2026-09-03 09:24:18,386 [INFO] Instructions saved
+2026-09-03 09:25:33,386 [INFO] --- Loop 56 @ 14:55:33 IST ---
+2026-09-03 09:25:33,387 [INFO] ⚠️ SBIN: missing entry_price or first_target_price, skipping
+2026-09-03 09:25:33,387 [INFO] Instructions saved
+2026-09-03 09:26:48,387 [INFO] --- Loop 57 @ 14:56:48 IST ---
+2026-09-03 09:26:48,388 [INFO] ⚠️ SBIN: missing entry_price or first_target_price, skipping
+2026-09-03 09:26:48,388 [INFO] Instructions saved
+2026-09-03 09:28:03,388 [INFO] --- Loop 58 @ 14:58:03 IST ---
+2026-09-03 09:28:03,388 [INFO] ⚠️ SBIN: missing entry_price or first_target_price, skipping
+2026-09-03 09:28:03,389 [INFO] Instructions saved
+2026-09-03 09:29:18,389 [INFO] --- Loop 59 @ 14:59:18 IST ---
+2026-09-03 09:29:18,389 [INFO] ⚠️ SBIN: missing entry_price or first_target_price, skipping
+2026-09-03 09:29:18,390 [INFO] Instructions saved
+2026-09-03 09:30:33,390 [INFO] --- Loop 60 @ 15:00:33 IST ---
+2026-09-03 09:30:33,390 [INFO] ⚠️ SBIN: missing entry_price or first_target_price, skipping
+2026-09-03 09:30:33,391 [INFO] Instructions saved
+2026-09-03 09:31:48,391 [INFO] --- Loop 61 @ 15:01:48 IST ---
+2026-09-03 09:31:48,391 [INFO] ⚠️ SBIN: missing entry_price or first_target_price, skipping
+2026-09-03 09:31:48,392 [INFO] Instructions saved
+2026-09-03 09:33:03,392 [INFO] --- Loop 62 @ 15:03:03 IST ---
+2026-09-03 09:33:03,392 [INFO] ⚠️ SBIN: missing entry_price or first_target_price, skipping
+2026-09-03 09:33:03,392 [INFO] Instructions saved
+2026-09-03 09:34:18,393 [INFO] --- Loop 63 @ 15:04:18 IST ---
+2026-09-03 09:34:18,393 [INFO] ⚠️ SBIN: missing entry_price or first_target_price, skipping
+2026-09-03 09:34:18,393 [INFO] Instructions saved
+2026-09-03 09:35:33,394 [INFO] --- Loop 64 @ 15:05:33 IST ---
+2026-09-03 09:35:33,394 [INFO] ⚠️ SBIN: missing entry_price or first_target_price, skipping
+2026-09-03 09:35:33,394 [INFO] Instructions saved
+2026-09-03 09:36:48,394 [INFO] --- Loop 65 @ 15:06:48 IST ---
+2026-09-03 09:36:48,395 [INFO] ⚠️ SBIN: missing entry_price or first_target_price, skipping
+2026-09-03 09:36:48,395 [INFO] Instructions saved
+2026-09-03 09:38:03,395 [INFO] --- Loop 66 @ 15:08:03 IST ---
+2026-09-03 09:38:03,395 [INFO] ⚠️ SBIN: missing entry_price or first_target_price, skipping
+2026-09-03 09:38:03,396 [INFO] Instructions saved
+2026-09-03 09:39:18,396 [INFO] --- Loop 67 @ 15:09:18 IST ---
+2026-09-03 09:39:18,396 [INFO] ⚠️ SBIN: missing entry_price or first_target_price, skipping
+2026-09-03 09:39:18,397 [INFO] Instructions saved
+2026-09-03 09:40:33,397 [INFO] --- Loop 68 @ 15:10:33 IST ---
+2026-09-03 09:40:33,397 [INFO] ⚠️ SBIN: missing entry_price or first_target_price, skipping
+2026-09-03 09:40:33,398 [INFO] Instructions saved
+2026-09-03 09:41:48,398 [INFO] --- Loop 69 @ 15:11:48 IST ---
+2026-09-03 09:41:48,398 [INFO] ⚠️ SBIN: missing entry_price or first_target_price, skipping
+2026-09-03 09:41:48,399 [INFO] Instructions saved
+2026-09-03 09:43:03,399 [INFO] --- Loop 70 @ 15:13:03 IST ---
+2026-09-03 09:43:03,399 [INFO] ⚠️ SBIN: missing entry_price or first_target_price, skipping
+2026-09-03 09:43:03,399 [INFO] Instructions saved
+2026-09-03 09:44:18,400 [INFO] --- Loop 71 @ 15:14:18 IST ---
+2026-09-03 09:44:18,400 [INFO] ⚠️ SBIN: missing entry_price or first_target_price, skipping
+2026-09-03 09:44:18,400 [INFO] Instructions saved
+2026-09-03 09:45:33,401 [INFO] --- Loop 72 @ 15:15:33 IST ---
+2026-09-03 09:45:33,401 [INFO] ⚠️ SBIN: missing entry_price or first_target_price, skipping
+2026-09-03 09:45:33,401 [INFO] Instructions saved
+2026-09-03 09:46:48,401 [INFO] --- Loop 73 @ 15:16:48 IST ---
+2026-09-03 09:46:48,402 [INFO] ⚠️ SBIN: missing entry_price or first_target_price, skipping
+2026-09-03 09:46:48,402 [INFO] Instructions saved
+2026-09-03 09:48:03,402 [INFO] --- Loop 74 @ 15:18:03 IST ---
+2026-09-03 09:48:03,402 [INFO] ⚠️ SBIN: missing entry_price or first_target_price, skipping
+2026-09-03 09:48:03,403 [INFO] Instructions saved
+2026-09-03 09:49:18,403 [INFO] --- Loop 75 @ 15:19:18 IST ---
+2026-09-03 09:49:18,403 [INFO] ⚠️ SBIN: missing entry_price or first_target_price, skipping
+2026-09-03 09:49:18,404 [INFO] Instructions saved
+2026-09-03 09:50:33,404 [INFO] --- Loop 76 @ 15:20:33 IST ---
+2026-09-03 09:50:33,404 [INFO] ⚠️ SBIN: missing entry_price or first_target_price, skipping
+2026-09-03 09:50:33,405 [INFO] Instructions saved
+2026-09-03 09:51:48,405 [INFO] --- Loop 77 @ 15:21:48 IST ---
+2026-09-03 09:51:48,405 [INFO] ⚠️ SBIN: missing entry_price or first_target_price, skipping
+2026-09-03 09:51:48,406 [INFO] Instructions saved
+2026-09-03 09:53:03,406 [INFO] --- Loop 78 @ 15:23:03 IST ---
+2026-09-03 09:53:03,406 [INFO] ⚠️ SBIN: missing entry_price or first_target_price, skipping
+2026-09-03 09:53:03,406 [INFO] Instructions saved
+2026-09-03 09:54:18,407 [INFO] --- Loop 79 @ 15:24:18 IST ---
+2026-09-03 09:54:18,407 [INFO] ⚠️ SBIN: missing entry_price or first_target_price, skipping
+2026-09-03 09:54:18,407 [INFO] Instructions saved
+2026-09-03 09:55:33,407 [INFO] --- Loop 80 @ 15:25:33 IST ---
+2026-09-03 09:55:33,408 [INFO] ⚠️ SBIN: missing entry_price or first_target_price, skipping
+2026-09-03 09:55:33,408 [INFO] Instructions saved
+2026-09-03 09:56:48,408 [INFO] --- Loop 81 @ 15:26:48 IST ---
+2026-09-03 09:56:48,409 [INFO] ⚠️ SBIN: missing entry_price or first_target_price, skipping
+2026-09-03 09:56:48,409 [INFO] Instructions saved
+2026-09-03 09:58:03,409 [INFO] --- Loop 82 @ 15:28:03 IST ---
+2026-09-03 09:58:03,409 [INFO] ⚠️ SBIN: missing entry_price or first_target_price, skipping
+2026-09-03 09:58:03,410 [INFO] Instructions saved
+2026-09-03 09:59:18,410 [INFO] --- Loop 83 @ 15:29:18 IST ---
+2026-09-03 09:59:18,410 [INFO] ⚠️ SBIN: missing entry_price or first_target_price, skipping
+2026-09-03 09:59:18,411 [INFO] Instructions saved
+2026-09-03 10:00:33,411 [INFO] --- Loop 84 @ 15:30:33 IST ---
+2026-09-03 10:00:33,411 [INFO] ⚠️ SBIN: missing entry_price or first_target_price, skipping
+2026-09-03 10:00:33,412 [INFO] Instructions saved
+2026-09-03 10:00:33,412 [INFO] Market closed. Continuing brief monitoring until hard stop for final GTT status...
+2026-09-03 10:01:48,412 [INFO] --- Loop 85 @ 15:31:48 IST ---
+2026-09-03 10:01:48,412 [INFO] ⚠️ SBIN: missing entry_price or first_target_price, skipping
+2026-09-03 10:01:48,413 [INFO] Instructions saved
+2026-09-03 10:01:48,413 [INFO] Market closed. Continuing brief monitoring until hard stop for final GTT status...
+2026-09-03 10:03:03,413 [INFO] --- Loop 86 @ 15:33:03 IST ---
+2026-09-03 10:03:03,413 [INFO] ⚠️ SBIN: missing entry_price or first_target_price, skipping
+2026-09-03 10:03:03,414 [INFO] Instructions saved
+2026-09-03 10:03:03,414 [INFO] Market closed. Continuing brief monitoring until hard stop for final GTT status...
+2026-09-03 10:04:18,414 [INFO] --- Loop 87 @ 15:34:18 IST ---
+2026-09-03 10:04:18,414 [INFO] ⚠️ SBIN: missing entry_price or first_target_price, skipping
+2026-09-03 10:04:18,415 [INFO] Instructions saved
+2026-09-03 10:04:18,415 [INFO] Market closed. Continuing brief monitoring until hard stop for final GTT status...
+2026-09-03 10:05:33,415 [INFO] Reached hard stop time. Ending trading day loop.
+2026-09-03 10:05:33,415 [INFO] ============================================================
+2026-09-03 10:05:33,415 [INFO] Trading day summary
+2026-09-03 10:05:33,415 [INFO] Trades opened today: 0
+2026-09-03 10:05:33,415 [INFO] Still active (multi-day): 0
+2026-09-03 10:05:33,415 [INFO] ============================================================
