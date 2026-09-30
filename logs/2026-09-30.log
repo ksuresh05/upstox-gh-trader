@@ -1,0 +1,29 @@
+2026-09-30 09:59:24,135 [INFO] ============================================================
+2026-09-30 09:59:24,135 [INFO] Trading day started — 2026-09-30
+2026-09-30 09:59:24,135 [INFO] ============================================================
+2026-09-30 09:59:24,135 [WARNING] Instructions are from 2026-06-22, not today (2026-09-30). Proceeding with existing watchlist anyway — update state/instructions.json for fresh rules.
+2026-09-30 09:59:24,135 [INFO] --- Loop 1 @ 15:29:24 IST ---
+2026-09-30 09:59:24,135 [INFO] ⚠️ SBIN: missing entry_price or first_target_price, skipping
+2026-09-30 09:59:24,135 [INFO] Instructions saved
+2026-09-30 10:00:39,136 [INFO] --- Loop 2 @ 15:30:39 IST ---
+2026-09-30 10:00:39,136 [INFO] ⚠️ SBIN: missing entry_price or first_target_price, skipping
+2026-09-30 10:00:39,137 [INFO] Instructions saved
+2026-09-30 10:00:39,137 [INFO] Market closed. Continuing brief monitoring until hard stop for final GTT status...
+2026-09-30 10:01:54,137 [INFO] --- Loop 3 @ 15:31:54 IST ---
+2026-09-30 10:01:54,137 [INFO] ⚠️ SBIN: missing entry_price or first_target_price, skipping
+2026-09-30 10:01:54,138 [INFO] Instructions saved
+2026-09-30 10:01:54,138 [INFO] Market closed. Continuing brief monitoring until hard stop for final GTT status...
+2026-09-30 10:03:09,138 [INFO] --- Loop 4 @ 15:33:09 IST ---
+2026-09-30 10:03:09,138 [INFO] ⚠️ SBIN: missing entry_price or first_target_price, skipping
+2026-09-30 10:03:09,139 [INFO] Instructions saved
+2026-09-30 10:03:09,139 [INFO] Market closed. Continuing brief monitoring until hard stop for final GTT status...
+2026-09-30 10:04:24,139 [INFO] --- Loop 5 @ 15:34:24 IST ---
+2026-09-30 10:04:24,139 [INFO] ⚠️ SBIN: missing entry_price or first_target_price, skipping
+2026-09-30 10:04:24,140 [INFO] Instructions saved
+2026-09-30 10:04:24,140 [INFO] Market closed. Continuing brief monitoring until hard stop for final GTT status...
+2026-09-30 10:05:39,140 [INFO] Reached hard stop time. Ending trading day loop.
+2026-09-30 10:05:39,140 [INFO] ============================================================
+2026-09-30 10:05:39,140 [INFO] Trading day summary
+2026-09-30 10:05:39,140 [INFO] Trades opened today: 0
+2026-09-30 10:05:39,140 [INFO] Still active (multi-day): 0
+2026-09-30 10:05:39,140 [INFO] ============================================================
