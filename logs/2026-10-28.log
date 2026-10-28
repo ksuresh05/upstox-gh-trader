@@ -1,0 +1,26 @@
+2026-10-28 10:00:07,336 [INFO] ============================================================
+2026-10-28 10:00:07,336 [INFO] Trading day started — 2026-10-28
+2026-10-28 10:00:07,336 [INFO] ============================================================
+2026-10-28 10:00:07,336 [WARNING] Instructions are from 2026-06-22, not today (2026-10-28). Proceeding with existing watchlist anyway — update state/instructions.json for fresh rules.
+2026-10-28 10:00:07,336 [INFO] --- Loop 1 @ 15:30:07 IST ---
+2026-10-28 10:00:07,336 [INFO] ⚠️ SBIN: missing entry_price or first_target_price, skipping
+2026-10-28 10:00:07,337 [INFO] Instructions saved
+2026-10-28 10:00:07,337 [INFO] Market closed. Continuing brief monitoring until hard stop for final GTT status...
+2026-10-28 10:01:22,337 [INFO] --- Loop 2 @ 15:31:22 IST ---
+2026-10-28 10:01:22,337 [INFO] ⚠️ SBIN: missing entry_price or first_target_price, skipping
+2026-10-28 10:01:22,338 [INFO] Instructions saved
+2026-10-28 10:01:22,338 [INFO] Market closed. Continuing brief monitoring until hard stop for final GTT status...
+2026-10-28 10:02:37,338 [INFO] --- Loop 3 @ 15:32:37 IST ---
+2026-10-28 10:02:37,338 [INFO] ⚠️ SBIN: missing entry_price or first_target_price, skipping
+2026-10-28 10:02:37,339 [INFO] Instructions saved
+2026-10-28 10:02:37,339 [INFO] Market closed. Continuing brief monitoring until hard stop for final GTT status...
+2026-10-28 10:03:52,339 [INFO] --- Loop 4 @ 15:33:52 IST ---
+2026-10-28 10:03:52,339 [INFO] ⚠️ SBIN: missing entry_price or first_target_price, skipping
+2026-10-28 10:03:52,340 [INFO] Instructions saved
+2026-10-28 10:03:52,340 [INFO] Market closed. Continuing brief monitoring until hard stop for final GTT status...
+2026-10-28 10:05:07,340 [INFO] Reached hard stop time. Ending trading day loop.
+2026-10-28 10:05:07,340 [INFO] ============================================================
+2026-10-28 10:05:07,340 [INFO] Trading day summary
+2026-10-28 10:05:07,340 [INFO] Trades opened today: 0
+2026-10-28 10:05:07,341 [INFO] Still active (multi-day): 0
+2026-10-28 10:05:07,341 [INFO] ============================================================
